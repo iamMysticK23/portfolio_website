@@ -146,7 +146,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
             <div className="col-6 col-md-3">
               <div className="featured-box text-center my-2 my-md-0">
               <h4 className={"text-12 mb-0 fs-5 fs-sm-4 fs-md-3 fs-lg-2 " + (darkTheme ? "text-white-50" : "text-muted")}>
-                        <span>FrmWrks</span>
+                        <span>FrmWrk</span>
                     </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   React.js | Node.js | Flask | BootStrap5 
