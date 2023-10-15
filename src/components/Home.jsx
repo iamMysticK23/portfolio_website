@@ -9,7 +9,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         <div className="hero-mask opacity-8 bg-dark" />
 
         {/* ---------------image background------------------ */}
-        <div className={`hero-bg parallax d-none d-md-block`}  // This will display only on medium devices and above
+        <div className={`hero-bg parallax`}  // This will display only on medium devices and above
           style={{
             backgroundImage: 'url("https://images.hdqwalls.com/wallpapers/stock-nature-golden-hours-rocks-mountains-orange-sky-4k-5j.jpg")',
             backgroundSize: '100%',
@@ -18,15 +18,6 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
           }}
         ></div>
 
-        {/* For smaller devices, you can use a different image or adjust the position/size */}
-        <div className={`hero-bg parallax d-md-none`}  // This will display only on devices smaller than medium
-          style={{
-            backgroundImage: 'url("images/nature_2.jpg")',
-            backgroundSize: '100%',
-            backgroundPosition: 'center',  // Adjust as required for mobile view
-            backgroundRepeat: 'no-repeat',
-          }}
-        ></div>
 
         <div className="hero-content section d-flex min-vh-100">
           <div className="container my-auto">
