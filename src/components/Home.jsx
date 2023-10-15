@@ -1,25 +1,34 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-
 const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
   return (
     <section id="home">
       <div className="hero-wrap">
+
         <div className="hero-mask opacity-8 bg-dark" />
 
         {/* ---------------image background------------------ */}
-        <div
-          className="hero-bg parallax"
+        <div className={`hero-bg parallax d-none d-md-block`}  // This will display only on medium devices and above
           style={{
             backgroundImage: 'url("images/nature_bkg.png")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
-            minHeight: '400px'  // Adjust this value based on your needs
+            minHeight: '400px'
           }}
         ></div>
 
+        {/* For smaller devices, you can use a different image or adjust the position/size */}
+        <div className={`hero-bg parallax d-md-none`}  // This will display only on devices smaller than medium
+          style={{
+            backgroundImage: 'url("images/nature_bkg.png")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',  // Adjust as required for mobile view
+            backgroundRepeat: 'no-repeat',
+            minHeight: '200px'  // Adjust based on mobile needs
+          }}
+        ></div>
 
         <div className="hero-content section d-flex min-vh-100">
           <div className="container my-auto">
