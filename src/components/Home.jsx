@@ -12,10 +12,9 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         <div className={`hero-bg parallax d-none d-md-block`}  // This will display only on medium devices and above
           style={{
             backgroundImage: 'url("https://images.hdqwalls.com/wallpapers/stock-nature-golden-hours-rocks-mountains-orange-sky-4k-5j.jpg")',
-            backgroundSize: 'cover',
+            backgroundSize: '100%',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
-            minHeight: '400px'
           }}
         ></div>
 
