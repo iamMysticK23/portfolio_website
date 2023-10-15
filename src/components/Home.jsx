@@ -10,7 +10,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
 
         {/* ---------------image background------------------ */}
                 <div className={`hero-bg parallax`}>
-            <img src="https://images.hdqwalls.com/wallpapers/stock-nature-golden-hours-rocks-mountains-orange-sky-4k-5j.jpg" alt="Background" style={{ 
+            <img src="https://images.hdqwalls.com/wallpapers/stock-nature-golden-hours-rocks-mountains-orange-sky-4k-5j.jpg" alt="background of mountains with orange sky" style={{ 
                 width: '100%', 
                 height: '100%', 
                 objectFit: 'cover', 

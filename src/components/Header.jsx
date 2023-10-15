@@ -28,7 +28,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 className="img-fluid rounded-circle"
                 src="images/kenai_profile.jpg"
                 title="Hello, I'm Kenai!"
-                alt="profile"
+                alt="Kenai outside at a park"
                 style={{ objectFit: 'cover', width: '100%', height: '100%' }}
               />
             </span>

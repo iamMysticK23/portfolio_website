@@ -210,7 +210,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                                                       setimagesLoaded(imagesLoaded + 1);
                                                   }}
                                                   src={image}
-                                                  alt={`Slide ${index}`}
+                                                  alt={`${project.title} slide ${index + 1}`} 
                                                   className="img-fluid d-block portfolio-image"
                                                   style={{ width: '100%', height: 'auto', maxWidth: '690px', maxHeight: '690px', margin: 'auto', marginTop: '100px',marginBottom: '50px', filter:'none' }}
                                               />
