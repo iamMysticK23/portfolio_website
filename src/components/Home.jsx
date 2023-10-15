@@ -9,14 +9,16 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         <div className="hero-mask opacity-8 bg-dark" />
 
         {/* ---------------image background------------------ */}
-        <div className={`hero-bg parallax`}  // This will display only on medium devices and above
-          style={{
-            backgroundImage: 'url("https://images.hdqwalls.com/wallpapers/stock-nature-golden-hours-rocks-mountains-orange-sky-4k-5j.jpg")',
-            backgroundSize: '100%',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-          }}
-        ></div>
+                <div className={`hero-bg parallax`}>
+            <img src="https://images.hdqwalls.com/wallpapers/stock-nature-golden-hours-rocks-mountains-orange-sky-4k-5j.jpg" alt="Background" style={{ 
+                width: '100%', 
+                height: '100%', 
+                objectFit: 'cover', 
+                position: 'absolute', 
+                zIndex: '-1'
+            }} />
+        </div>
+
 
 
         <div className="hero-content section d-flex min-vh-100">
