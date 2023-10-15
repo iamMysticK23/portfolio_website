@@ -229,7 +229,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                           </div>
                             {/* Description on the right */}
                             <div className="portfolio-description col-3 p-3 flex-grow-1 bg-secondary">
-                            <h5 className="text-dark fw-bold text-center">{project.title}</h5>
+                            <h5 className="text-warning fw-bold text-center">{project.title}</h5>
                             <p className="text-light">{project.projectInfo}</p>
                             <p className="text-light"><strong>Technologies:</strong> {project.technologies}</p>
                             <p className="text-light"><strong>Industry:</strong> {project.industry}</p>
