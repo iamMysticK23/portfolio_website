@@ -11,7 +11,13 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         {/* ---------------image background------------------ */}
         <div
           className="hero-bg parallax"
-          style={{ backgroundImage: 'url("images/nature_bkg.png")' }}
+          style={{
+            backgroundImage: 'url("images/nature_bkg.png")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            minHeight: '400px'  // Adjust this value based on your needs
+          }}
         ></div>
 
 
