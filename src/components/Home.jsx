@@ -11,7 +11,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         {/* ---------------image background------------------ */}
         <div className={`hero-bg parallax d-none d-md-block`}  // This will display only on medium devices and above
           style={{
-            backgroundImage: 'url("images/nature_bkg.png")',
+            backgroundImage: 'url("https://images.hdqwalls.com/wallpapers/stock-nature-golden-hours-rocks-mountains-orange-sky-4k-5j.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
@@ -22,7 +22,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         {/* For smaller devices, you can use a different image or adjust the position/size */}
         <div className={`hero-bg parallax d-md-none`}  // This will display only on devices smaller than medium
           style={{
-            backgroundImage: 'url("images/nature_bkg.png")',
+            backgroundImage: 'url("https://images.hdqwalls.com/wallpapers/stock-nature-golden-hours-rocks-mountains-orange-sky-4k-5j.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',  // Adjust as required for mobile view
             backgroundRepeat: 'no-repeat',
