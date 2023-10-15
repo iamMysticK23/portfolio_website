@@ -136,7 +136,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
             <div className="col-6 col-md-3">
               <div className="featured-box text-center my-2 my-md-0">
               <h4 className={"text-12 mb-0 fs-5 fs-sm-4 fs-md-3 fs-lg-2 " + (darkTheme ? "text-white-50" : "text-muted")}>
-                        <span>Languages</span>
+                        <span>Lang</span>
                     </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                 JavaScript | TypeScript | HTML-5 | CSS | Python 
@@ -146,7 +146,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
             <div className="col-6 col-md-3">
               <div className="featured-box text-center my-2 my-md-0">
               <h4 className={"text-12 mb-0 fs-5 fs-sm-4 fs-md-3 fs-lg-2 " + (darkTheme ? "text-white-50" : "text-muted")}>
-                        <span>Frameworks</span>
+                        <span>FrmWrks</span>
                     </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   React.js | Node.js | Flask | BootStrap5 
