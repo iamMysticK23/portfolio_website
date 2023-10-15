@@ -22,7 +22,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         {/* For smaller devices, you can use a different image or adjust the position/size */}
         <div className={`hero-bg parallax d-md-none`}  // This will display only on devices smaller than medium
           style={{
-            backgroundImage: 'url("https://images.hdqwalls.com/wallpapers/stock-nature-golden-hours-rocks-mountains-orange-sky-4k-5j.jpg")',
+            backgroundImage: 'url("images/nature_2.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',  // Adjust as required for mobile view
             backgroundRepeat: 'no-repeat',
