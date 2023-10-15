@@ -30,7 +30,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   <Typewriter
                     options={{
                       strings: [
-                        "I'm Kenai Epps.",
+                        "I'm Kenai.",
                         "I'm an emerging Front End Developer.",
                         "I'm eager to Drive Innovation + Achieve Measurable Results.",
                         "I'm a Creator.",
