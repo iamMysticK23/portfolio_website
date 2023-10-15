@@ -198,9 +198,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         {projectsData.length > 0 &&
             projectsData.map((project, index) => (
                 <div className="col-12 filter-item" key={project.title}>
-                    <div className="portfolio-box rounded d-flex flex-row">
+                    <div className="portfolio-box rounded d-flex flex-column flex-lg-row">
                           {/* Image Carousel on the left */}
-                          <div className="portfolio-img bg-dark" style={{ width: '700px', padding: '5px',}}>
+                          <div className="portfolio-img bg-dark col-12 col-lg-8" style={{  padding: '5px',}}>
                               <div id={`carousel${project.title.replace(/\s/g, '')}`} className="carousel slide" data-bs-ride="carousel">
                                   <div className="carousel-inner">
                                       {project.sliderImages.map((image, index) => (
@@ -228,7 +228,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                               </div>
                           </div>
                             {/* Description on the right */}
-                            <div className="portfolio-description col-3 p-3 flex-grow-1 bg-secondary">
+                            <div className="portfolio-description col-12 col-lg-4 p-3 bg-secondary">
                             <h5 className="text-warning fw-bold text-center">{project.title}</h5>
                             <p className="text-light">{project.projectInfo}</p>
                             <p className="text-light"><strong>Technologies:</strong> {project.technologies}</p>

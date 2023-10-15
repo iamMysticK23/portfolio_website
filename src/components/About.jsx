@@ -122,61 +122,42 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
           }
         >
           <div className="row">
-            <div className="col-6 col-md-3">
-              <div className="featured-box text-center">
-                <h4
-                  className={
-                    "text-12  mb-0 " +
-                    (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
-                  <span>Recent</span>
-                </h4>
+                <div className="col-6 col-md-3">
+                  <div className="featured-box text-center my-2 my-md-0">
+                  <h4 className={"text-12 mb-0 fs-5 fs-sm-4 fs-md-3 fs-lg-2 " + (darkTheme ? "text-white-50" : "text-muted")}>
+                        <span>Recent</span>
+                    </h4>
+
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                  Software Engineer Bootcamp Graduate
                 </p>
               </div>
             </div>
             <div className="col-6 col-md-3">
-              <div className="featured-box text-center">
-                <h4
-                  className={
-                    "text-12  mb-0 " +
-                    (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
-                  <span>Languages</span>
-                </h4>
+              <div className="featured-box text-center my-2 my-md-0">
+              <h4 className={"text-12 mb-0 fs-5 fs-sm-4 fs-md-3 fs-lg-2 " + (darkTheme ? "text-white-50" : "text-muted")}>
+                        <span>Languages</span>
+                    </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                 JavaScript | TypeScript | HTML-5 | CSS | Python 
                 </p>
               </div>
             </div>
             <div className="col-6 col-md-3">
-              <div className="featured-box text-center">
-                <h4
-                  className={
-                    "text-12  mb-0 " +
-                    (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
-                  <span>Frameworks</span>
-                </h4>
+              <div className="featured-box text-center my-2 my-md-0">
+              <h4 className={"text-12 mb-0 fs-5 fs-sm-4 fs-md-3 fs-lg-2 " + (darkTheme ? "text-white-50" : "text-muted")}>
+                        <span>Frameworks</span>
+                    </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   React.js | Node.js | Flask | BootStrap5 
                 </p>
               </div>
             </div>
             <div className="col-6 col-md-3">
-              <div className="featured-box text-center">
-                <h4
-                  className={
-                    "text-12  mb-0 " +
-                    (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
-                  <span>Extras+</span>
-                </h4>
+              <div className="featured-box text-center my-2 my-md-0">
+              <h4 className={"text-12 mb-0 fs-5 fs-sm-4 fs-md-3 fs-lg-2 " + (darkTheme ? "text-white-50" : "text-muted")}>
+                        <span>Extras+</span>
+                    </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   APIs | SQL | Responsive Web Design | Object-Oriented Programming
                 </p>
