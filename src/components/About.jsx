@@ -149,7 +149,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                         <span>FrmWrk</span>
                     </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  React.js | Node.js | Flask | BootStrap5 
+                  ReactJS | NodeJS | Flask | BootStrap5 
                 </p>
               </div>
             </div>
