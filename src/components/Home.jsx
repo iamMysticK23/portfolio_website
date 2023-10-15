@@ -23,7 +23,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         <div className={`hero-bg parallax d-md-none`}  // This will display only on devices smaller than medium
           style={{
             backgroundImage: 'url("images/nature_2.jpg")',
-            backgroundSize: 'cover',
+            backgroundSize: '25%',
             backgroundPosition: 'center',  // Adjust as required for mobile view
             backgroundRepeat: 'no-repeat',
             minHeight: '200px'  // Adjust based on mobile needs
