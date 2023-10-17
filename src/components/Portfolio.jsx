@@ -126,9 +126,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         github: "https://github.com/iamMysticK23/passenger-counter-ke",
 
       },
-      thumbImage: "images/projects/passenger-counter.png",
+      thumbImage: "images/projects/pass-counter2.png",
       sliderImages: [
-        "images/projects/passenger-counter.png",
+        "images/projects/pass-counter2.png",
       ],
       categories: [filters.REACTPROJECTS],
     },
