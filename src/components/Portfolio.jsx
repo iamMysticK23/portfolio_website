@@ -106,6 +106,32 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       ],
       categories: [filters.REACTPROJECTS],
     },
+    {
+      title: "Passenger Counter App",
+      projectInfo:`
+      A sleek and user-friendly web application developed with Visual Studio Code, JavaScript, CSS, and HTML. 
+      This efficient tool allows real-time counting, incremental updates, and easy saving of counts. 
+      You can also clear entries and review your previous counts. Its modern design and responsive layout make it suitable for various counting tasks, 
+      from tracking event attendance to managing inventory.
+      Created as part of the Scrimba FrontEnd Career Path course.
+      `,
+      technologies: "Javscript, HTML5, CSS3",
+      industry: "Transportation",
+      date: "October 2023",
+      url: {
+        name: "Live Demo",
+        link: "https://passenger-counter-ke.netlify.app",
+      },
+      socialLinks: {
+        github: "https://github.com/iamMysticK23/passenger-counter-ke",
+
+      },
+      thumbImage: "images/projects/passenger-counter.png",
+      sliderImages: [
+        "images/projects/passenger-counter.png",
+      ],
+      categories: [filters.REACTPROJECTS],
+    },
   
   ];
 
