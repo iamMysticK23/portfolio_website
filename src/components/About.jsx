@@ -51,7 +51,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-warning">Kenai Epps,</span> an emerging Front End Developer.
+              I'm <span className="text-warning">Kenai Epps,</span> a Front End Developer.
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
             As a front-end developer, I specialize in crafting intuitive and visually compelling user interfaces that enhance digital user experiences.
