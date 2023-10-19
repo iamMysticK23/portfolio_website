@@ -54,24 +54,32 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               I'm <span className="text-warning">Kenai Epps,</span> an emerging Front End Developer.
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-            From a young age, technology has always captivated me. My journey, enriched with extensive retail management experience and time spent as a dedicated truck driver, 
-            has shaped my self development and embracing of challenges. 
-            In the dynamic world of logistics, I've navigated ever-changing road and weather conditions, 
-            managed tight delivery schedules, and proudly upheld a 100% on-time delivery rating. 
-            These experiences, from understanding varied personalities to adeptly juggling time, 
-            have forged an invaluable skill set.
+            As a front-end developer, I specialize in crafting intuitive and visually compelling user interfaces that enhance digital user experiences.
+            From early on, technology has been the compass guiding my path. My diverse background, which spans from retail management to dedicated truck driving, 
+            has instilled in me a resilience, adaptability, and a thirst for challenge. Within the retail environment, 
+            I honed skills in employee development, demonstrating leadership by guiding teams towards success, managing intricate operations, 
+            and ensuring customer satisfaction at every turn. 
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-            Beyond the rigors of professional life, I indulge in the art of content creation. 
-            My Canon R8 isn't just a camera; it's an extension of my being. 
-            Tools like Final Cut Pro and Adobe Photoshop aren't just software; they're the instruments in my creative symphony. 
-            This intersection of technology and creativity paved my path to front end development.
+            The various roles I had in retail management instilled in me the significance of clear communication, 
+            proactive problem-solving, and the ability to motivate and inspire. In the intricate maze of logistics, 
+            I've maneuvered through unpredictable terrains, adhered to the strictest of schedules, and maintained a 100% on-time delivery record.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-            With a discerning eye for design and a profound passion for tech, 
-            I transform abstract visions into digital masterpieces. 
-            Armed with React JS, TypeScript, HTML, and CSS, I will ensure that every pixel, every coded element, 
-            perfectly aligns with a client's aspirations.
+            This trajectory, filled with lessons on understanding human nuances and the art of time management,
+            has fine-tuned my aptitude for intricate tasks. 
+            My penchant for detail extends to the realm of digital artistry. 
+            While tools like Final Cut Pro, Adobe Photoshop, and Adobe Lightroom have been instrumental in sculpting visual narratives, 
+            they also underscored the importance of meticulous craftsmanship. 
+            Each frame I edit, every image I enhance, emphasizes precision and aesthetics, values I carry forward into web development.
+            </p>
+            <p className={darkTheme ? "text-white-50" : ""}>
+            With a foundation in JavaScript and bolstered by expertise in React JS, TypeScript, HTML, and CSS, 
+            I am poised to bring abstract concepts to digital life. Drawing from my diverse backgrounds in retail, 
+            logistics and digital artistry, I possess a distinctive perspective that sets me apart. 
+            As a front-end developer, my vision extends beyond simply building websites and applications.
+            I'm dedicated to designing and developing seamless user interfaces as a front-end developer, 
+            ensuring each element aligns perfectly with a client's vision and goals.
             </p>
           </div>
           {/* About me content end */}
