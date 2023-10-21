@@ -104,7 +104,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 download
                 className="btn btn-warning rounded-pill"
               >
-                Download CV
+                Download Resume
               </a>
             </div>
           </div>
