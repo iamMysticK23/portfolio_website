@@ -54,32 +54,20 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               I'm <span className="text-warning">Kenai Epps,</span> a Front End Developer.
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-            As a front-end developer, I specialize in crafting intuitive and visually compelling user interfaces that enhance digital user experiences.
-            From early on, technology has been the compass guiding my path. My diverse background, which spans from retail management to dedicated truck driving, 
-            has instilled in me a resilience, adaptability, and a thirst for challenge. Within the retail environment, 
-            I honed skills in employee development, demonstrating leadership by guiding teams towards success, managing intricate operations, 
-            and ensuring customer satisfaction at every turn. 
+            ▪️💻 I am a front-end developer with a full stack software engineer certificate from Coding Temple. 
+                I specialize in creating intuitive and visually compelling user interfaces that enhance digital user experiences and drive innovation.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-            The various roles I had in retail management instilled in me the significance of clear communication, 
-            proactive problem-solving, and the ability to motivate and inspire. In the intricate maze of logistics, 
-            I've maneuvered through unpredictable terrains, adhered to the strictest of schedules, and maintained a 100% on-time delivery record.
+            ▪️📚 My diverse background, which spans from retail management to dedicated truck driving, 
+                has equipped me with skills in leadership, communication, problem-solving, and time management. 
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-            This trajectory, filled with lessons on understanding human nuances and the art of time management,
-            has fine-tuned my aptitude for intricate tasks. 
-            My penchant for detail extends to the realm of digital artistry. 
-            While tools like Final Cut Pro, Adobe Photoshop, and Adobe Lightroom have been instrumental in sculpting visual narratives, 
-            they also underscored the importance of meticulous craftsmanship. 
-            Each frame I edit, every image I enhance, emphasizes precision and aesthetics, values I carry forward into web development.
+            ▪️📷 I have also developed a passion for digital artistry, 
+                using tools like Final Cut Pro, Adobe Photoshop, and Adobe Lightroom to craft visual narratives. 
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-            With a foundation in JavaScript and bolstered by expertise in React JS, TypeScript, HTML, and CSS, 
-            I am poised to bring abstract concepts to digital life. Drawing from my diverse backgrounds in retail, 
-            logistics and digital artistry, I possess a distinctive perspective that sets me apart. 
-            As a front-end developer, my vision extends beyond simply building websites and applications.
-            I'm dedicated to designing and developing seamless user interfaces as a front-end developer, 
-            ensuring each element aligns perfectly with a client's vision and goals.
+            ▪️📲 I apply these skills and passions to web development, 
+                using technologies like React JS, TypeScript, JavaScript, HTML, and CSS to bring abstract concepts to digital life. 
             </p>
           </div>
           {/* About me content end */}
