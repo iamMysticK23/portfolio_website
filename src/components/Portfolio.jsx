@@ -107,28 +107,33 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       categories: [filters.REACTPROJECTS],
     },
     {
-      title: "Passenger Counter App",
+      title: "Secure Password Generator",
       projectInfo:`
-      A sleek and user-friendly web application developed with Visual Studio Code, JavaScript, CSS, and HTML. 
-      This efficient tool allows real-time counting, incremental updates, and easy saving of counts. 
-      You can also clear entries and review your previous counts. Its modern design and responsive layout make it suitable for various counting tasks, 
-      from tracking event attendance to managing inventory.
-      Created as part of the Scrimba FrontEnd Career Path course.
+      The Secure Password Generator is a robust JavaScript-powered application, 
+      designed to fortify online protection by generating randomized and sturdy passwords. 
+      In a single click, users can ensure they're steps ahead in safeguarding their digital accounts.
+      
+      Recent Enhancements (10/23/2023):
+
+      Integrated Light/Dark Mode for user convenience.
+      Introduced a flexible drop-down for character length choices ranging from 10 to 20 characters.
+      Provided toggle options for the inclusion of special characters and numbers, giving users a more personalized password creation experience.
       `,
       technologies: "Javscript, HTML5, CSS3",
-      industry: "Transportation",
+      industry: "Technology",
       date: "October 2023",
       url: {
         name: "Live Demo",
-        link: "https://passenger-counter-ke.netlify.app",
+        link: "https://password-generator-ke.netlify.app",
       },
       socialLinks: {
-        github: "https://github.com/iamMysticK23/passenger-counter-ke",
+        github: "https://github.com/iamMysticK23/password-generator-ke",
 
       },
-      thumbImage: "images/projects/pass-counter2.png",
+      thumbImage: "images/projects/password-gen1.png",
       sliderImages: [
-        "images/projects/pass-counter2.png",
+        "images/projects/password-gen2.png",
+        "images/projects/password-gen3.png",
       ],
       categories: [filters.REACTPROJECTS],
     },
