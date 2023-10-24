@@ -116,6 +116,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       Recent Enhancements (10/23/2023):
 
       Integrated Light/Dark Mode for user convenience.
+      Implemented "copy to clipboard" feature once a user clicks on any of the password containers.
       Introduced a flexible drop-down for character length choices ranging from 10 to 20 characters.
       Provided toggle options for the inclusion of special characters and numbers, giving users a more personalized password creation experience.
       `,
