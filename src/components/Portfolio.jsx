@@ -79,7 +79,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/tbs_5.jpeg",
         "images/projects/tbs_6.jpeg",
       ],
-      categories: [filters.REACTPROJECTS],
+      categories: [filters.FLASKPROJECTS],
     },
     {
       title: "Dynamic Weather App",
@@ -104,7 +104,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/weatherapp2.png",
         "images/projects/weatherapp3.png",
       ],
-      categories: [filters.REACTPROJECTS],
+      categories: [filters.OTHER],
     },
     {
       title: "Secure Password Generator",
@@ -136,8 +136,37 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/password-gen2.png",
         "images/projects/password-gen3.png",
       ],
-      categories: [filters.REACTPROJECTS],
+      categories: [filters.OTHER],
     },
+    {
+      title: "Color Scheme Generator",
+      projectInfo:`
+      Key Features:
+      Color Scheme Generation: The Color Scheme Generator fetches color schemes from The Color API, ensuring a diverse and aesthetically pleasing selection.
+      Color Display: The generated color scheme is displayed on the page, making it easy to visualize the colors and their combinations.
+      Hex Values: Each color in the scheme is accompanied by its hexadecimal value, allowing you to use these values in your design work.
+      Clipboard Integration: With a single click, you can copy any hex value to your clipboard, saving you time and effort when implementing colors in your projects.
+      `,
+      technologies: "Javscript, HTML5, CSS3",
+      industry: "Technology",
+      date: "November 2023",
+      url: {
+        name: "Live Demo",
+        link: "https://color-scheme-generator-ke.netlify.app",
+      },
+      socialLinks: {
+        github: "https://github.com/iamMysticK23/color-scheme-generator-ke",
+
+      },
+      thumbImage: "images/projects/color-scheme3.png",
+      sliderImages: [
+        "images/projects/color-scheme1.png",
+        "images/projects/color-scheme2.png",
+        "images/projects/color-scheme4.png",
+      ],
+      categories: [filters.OTHER],
+    },
+  
   
   ];
 
