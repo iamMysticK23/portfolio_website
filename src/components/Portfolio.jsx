@@ -301,7 +301,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Visit: {project.url.name}
+                                {project.url.name}
                             </a>
                             <div className="mt-2">
                                 <a href={project.socialLinks.github} target="_blank" rel="noopener noreferrer" style={{ marginRight: '10px', fontSize: '24px' }}><i className="fab fa-github"></i></a>
