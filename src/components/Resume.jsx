@@ -1,5 +1,5 @@
 import React from "react";
-import resumeFile from "../documents/KenaiEpps_FEDev_Oct2023.pdf";
+import resumeFile from "../documents/KenaiEpps_FEDev2023.pdf";
 
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
